@@ -4,7 +4,7 @@
 		"bool"
 	],
 	"Disabled_Description": [
-		"",
+		"Setting to true disables the module",
 		"string"
 	],
 	"BccTo": [
@@ -12,7 +12,7 @@
 		"string"
 	],
 	"BccTo_Description": [
-		"",
+		"If specified, this address is added as BCC to all the messages sent from the installation",
 		"string"
 	]
 }
