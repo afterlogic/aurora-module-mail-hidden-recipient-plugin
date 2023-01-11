@@ -19,8 +19,9 @@ namespace Aurora\Modules\MailHiddenRecipientPlugin;
 class Module extends \Aurora\System\Module\AbstractModule
 {
 	/**
-	 * @param CApiPluginManager $oPluginManager
+	 * @var \Aurora\Modules\Mail\Module
 	 */
+	protected $oMailModule;
 	
 	public function init() 
 	{
