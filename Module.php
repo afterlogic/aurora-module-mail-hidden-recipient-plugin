@@ -64,8 +64,8 @@ class Module extends \Aurora\System\Module\AbstractModule
     public function onBeforeSendMessage(&$aArguments, &$mResult)
     {
         $sBccTo = $this->oModuleSettings->BccTo;
-        if ($sBccTo!=='') {
-            $aArguments['Bcc'] .= ($aArguments['Bcc']!=='' ? ', ' : '') . $sBccTo;
+        if ($sBccTo !== '') {
+            $aArguments['Bcc'] .= ($aArguments['Bcc'] !== '' ? ', ' : '') . $sBccTo;
         }
     }
 }
